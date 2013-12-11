@@ -63,6 +63,7 @@ Reference: https://github.com/kik0220/sublimetext_japanize
 2. Add: alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 [HowToUse]
+
 1. $ st FILENAME or DIRECTORYNAME
 
 2. Open ST3 to FILENAME or DIRECTORYNAME
