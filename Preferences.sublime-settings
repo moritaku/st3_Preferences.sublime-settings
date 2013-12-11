@@ -1,48 +1,25 @@
 {
-	//テーマ指定
-	"theme": "Flatland Dark.sublime-theme",
-	//カラースキーマの設定
 	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
-	//Flatlandでのタブの角丸解除
+	"draw_indent_guides": true,
+	"draw_white_space": "all",
 	"flatland_square_tabs": true,
-
-	//無視するパッケージ
+	"font_face": "Inconsolata",
+	"font_size": 14.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-
-	//フォント指定(Inconsolata)
-	"font_face": "Inconsolata",
-	//フォントサイズ
-	"font_size": 14.0,
-
-	//インデントの境界を先で区切る
-	"draw_indent_guides": true,
-	//空白スペースの可視化
-	"draw_white_space": "all",
-	//現在の行をハイライトする
-	"highlight_line": true,
-	//変更のあったタブをハイライトする
-	"highlight_modified_tabs": true,
-	//行の上側の余白
-	"line_padding_top": 1,
-	//行の下側の余白
 	"line_padding_bottom": 1,
-	//ガーターとテキストエリアの幅
+	"line_padding_top": 1,
 	"margin": 0,
-	//ファイルを開く際新しいウィンドウで開く
 	"open_files_in_new_window": false,
-	//ファイル最終行を超えたスクロール
 	"scroll_past_end": false,
-	//タイトルバーにファイルパス表示
 	"show_full_path": true,
-	//タブの大きさ指定、インデント幅
 	"tab_size": 2,
-	//タブ文字をスペースに変換
+	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": false,
-	//保存時に行末の空白を削除する
 	"trim_trailing_white_space_on_save": true,
-	//テキストの折り返し
 	"word_wrap": true
 }
