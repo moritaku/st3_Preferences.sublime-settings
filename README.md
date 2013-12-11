@@ -16,3 +16,40 @@ $ ln -s ~/git/st3/Preferences.sublime-settings ~/Library/Application\ Support/Su
 3. Enter
 
 ======================================================
+*Installed Packages*
+
+[HowToUse]
+
+1. Open PackageControl: ⌘+⇧+p
+
+2. Select InstallPackage
+
+3. Select Package
+
+[Packages]
+
+*Gist
+
+*MarkDownPreview
+
+*Bracket Highlighter
+
+*Japanize
+
+*AndyPHP
+
+*Flatland
+
+======================================================
+*Japanize*
+
+1. PackageInstall "Japanize"
+
+2. Copy: cp -a /User/(USERNAME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/Japanize/*.jp /User/(USERNAME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/Default
+
+3. Replace: *.jp => *
+
+4. Copy: cp -a /User/(USERNAME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/Japanize/* /User/(USERNAME)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+
+Reference: https://github.com/kik0220/sublimetext_japanize
+
