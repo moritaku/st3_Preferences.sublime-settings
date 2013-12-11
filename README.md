@@ -8,8 +8,11 @@ $ ln -s ~/git/st3/Preferences.sublime-settings ~/Library/Application\ Support/Su
 
 ======================================================
 *Install PackageControl*
+
 1. Show Console: control + `
+
 2. Paste: import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+
 3. Enter
 
 ======================================================
