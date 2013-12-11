@@ -1,9 +1,11 @@
 Memorandum of Preferences.sublime-settings for me.
 
 Move the original Preferences.sublime-settings file
+
 $ mv ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings ~/git/st3/
 
 Put a symbolic link
+
 $ ln -s ~/git/st3/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 ======================================================
@@ -53,3 +55,14 @@ $ ln -s ~/git/st3/Preferences.sublime-settings ~/Library/Application\ Support/Su
 
 Reference: https://github.com/kik0220/sublimetext_japanize
 
+======================================================
+*Use for Terminal(bash)*
+
+1. $ vi ~/.bash_profile
+
+2. Add: alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+[HowToUse]
+1. $ st FILENAME or DIRECTORYNAME
+
+2. Open ST3 to FILENAME or DIRECTORYNAME
