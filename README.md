@@ -42,6 +42,10 @@ $ ln -s ~/git/st3/Preferences.sublime-settings ~/Library/Application\ Support/Su
 
 *Flatland
 
+*SFTP
+
+*jQuery
+
 ======================================================
 *Japanize*
 
